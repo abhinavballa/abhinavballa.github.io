@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Abhinav Balla - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/headshot.png"
+              alt="Abhinav Balla"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Abhinav Balla</span>
+        </div>
+        <nav class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">Projects</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </nav>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about">About</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <div class="home-hero__text-wrapper">
+          <h1 class="heading-primary">
+            <span class="gradient-text">Hey, I'm</span><br />
+            <span class="heading-primary__name">Abhinav Balla</span>
+          </h1>
+          <div class="home-hero__info">
+            <p class="text-primary">
+              Computer Science student at UC Berkeley, graduating Spring 2026. 
+              Passionate about Software Engineering, AI, and building impactful solutions.
+            </p>
+          </div>
+          <div class="home-hero__cta">
+            <a href="./#projects" class="btn btn--bg btn--primary">
+              <span>View Projects</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/abhinav-balla/" target="_blank" class="btn btn--outline">
+              Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/abhinav-balla/" target="_blank" class="home-hero__social-icon-link" aria-label="LinkedIn">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="LinkedIn"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/abhinavballa" target="_blank" class="home-hero__social-icon-link" aria-label="GitHub">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="GitHub"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-me sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Passionate developer building the future, one project at a time
+          </span>
+        </h2>
+        <div class="about-me__content">
+          <div class="about-me__text">
+            <p class="text-primary">
+              Hey! I'm <strong>Abhinav Balla</strong>, a Computer Science student at UC Berkeley based in the South Bay Area, 
+              set to graduate in Spring 2026. I've had the opportunity to work on exciting projects and internships 
+              spanning <strong>Machine Learning</strong>, <strong>Full Stack Development</strong>, and <strong>Platform Engineering</strong>.
+            </p>
+            <p class="text-primary">
+              I'm passionate about creating innovative solutions that solve real-world problems. Whether it's building 
+              AI-powered applications, developing scalable systems, or crafting beautiful user experiences, I love 
+              bringing ideas to life through code.
+            </p>
+            <p class="text-primary">
+              Outside of the tech space, I enjoy staying active, most specifically through basketball. I believe in 
+              maintaining a balance between technical excellence and personal well-being.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Featured Projects</span>
+          <span class="heading-sec__sub">
+            A collection of my recent work and side projects
+          </span>
+        </h2>
+    
+        <div class="projects__grid">
+          <!-- RecipeAgent Project -->
+          <a href="./project-7.html" class="project-card">
+            <div class="project-card__icon">🍳</div>
+            <h3 class="project-card__title">RecipeAgent - Voice AI (Gordon Ramsay)</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">LiveKit</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">RAG</span>
+            </div>
+            <p class="project-card__description">
+              Real-time voice AI agent that talks like Gordon Ramsay, answers cookbook questions using RAG, and performs measurement conversions.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Readie Project -->
+          <a href="./project-8.html" class="project-card">
+            <div class="project-card__icon">📖</div>
+            <h3 class="project-card__title">Readie - Reading Copilot</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Chrome Extension</span>
+              <span class="tech-tag">GPT-4 Vision</span>
+            </div>
+            <p class="project-card__description">
+              Universal reading copilot that turns any on-screen text into an interactive GPT-4 assistant with privacy-first, client-side processing.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- PinPoint Project -->
+          <a href="https://v0-pin-point-game-design.vercel.app/" class="project-card" target="_blank">
+            <div class="project-card__icon">📍</div>
+            <h3 class="project-card__title">PinPoint</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Groq LLM</span>
+            </div>
+            <p class="project-card__description">
+              "20 Questions" game with a geographic twist and a leaderboard system, using Groq LLM to answer questions.
+            </p>
+            <div class="project-card__cta">
+              <span>Play Now</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- SEMS Project -->
+          <a href="./project-4.html" class="project-card">
+            <div class="project-card__icon">🌡️</div>
+            <h3 class="project-card__title">Smart Environmental Monitoring System</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">IoT</span>
+            </div>
+            <p class="project-card__description">
+              A modular system utilizing various sensors to monitor environmental factors like air quality, radiation levels, light intensity, and temperature, with real-time data visualization.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Face ID Project -->
+          <a href="./project-6.html" class="project-card">
+            <div class="project-card__icon">👤</div>
+            <h3 class="project-card__title">Face ID</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">Computer Vision</span>
+            </div>
+            <p class="project-card__description">
+              Real-time facial verification system that takes a reference picture and verifies faces in real-time compared to the reference.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Tile Adventure Project -->
+          <a href="./project-1.html" class="project-card">
+            <div class="project-card__icon tile-icon"></div>
+            <h3 class="project-card__title">Tile Adventure</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">StdDraw</span>
+              <span class="tech-tag">Interactive</span>
+            </div>
+            <p class="project-card__description">
+              Tile-based, keyboard-interactive game featuring dynamic gameplay mechanics, seed-based random world generation, and engaging user experience.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+    
+          <!-- FedEx Router Assistant Project -->
+          <a href="./project-2.html" class="project-card">
+            <div class="project-card__icon fedex-icon"></div>
+            <h3 class="project-card__title">FedEx Router Assistant</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Scikit-Learn</span>
+              <span class="tech-tag">Pandas</span>
+            </div>
+            <p class="project-card__description">
+              Predictive model that forecasts package delivery volumes for FedEx drivers based on weather patterns, terrain data, and historical delivery statistics.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Shell Script Interpreter Project -->
+          <a href="./project-5.html" class="project-card">
+            <div class="project-card__icon">💻</div>
+            <h3 class="project-card__title">Shell Script Interpreter</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">C</span>
+              <span class="tech-tag">Make</span>
+              <span class="tech-tag">Multiprocessing</span>
+            </div>
+            <p class="project-card__description">
+              A custom shell script interpreter implementation in C that can read and execute script files containing command line prompts, along with a custom grep implementation.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+    
+          <!-- SchoolInOne Project -->
+          <a href="./project-3.html" class="project-card">
+            <div class="project-card__icon school-icon"></div>
+            <h3 class="project-card__title">SchoolInOne</h3>
+            <div class="project-card__tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SMTP</span>
+            </div>
+            <p class="project-card__description">
+              Intelligent school consulting bot designed to help resolve common student problems and provide educational guidance.
+            </p>
+            <div class="project-card__cta">
+              <span>View Project</span>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Connect With Me</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/abhinav-balla/" class="social-link" aria-label="LinkedIn">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="LinkedIn"
+                />
+                <span>LinkedIn</span>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/abhinavballa" class="social-link" aria-label="GitHub">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="GitHub"
+                />
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Abhinav Balla</h4>
+            <p class="main-footer__short-desc">
+              Building innovative solutions and exploring the intersection of AI and software engineering.
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          <p>&copy; 2025 Abhinav Balla. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
